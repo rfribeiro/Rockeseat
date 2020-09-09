@@ -1,0 +1,30 @@
+{
+  "name": "curso-es6",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/cli": "^7.10.5",
+    "@babel/core": "^7.11.4",
+    "@babel/plugin-proposal-object-rest-spread": "^7.11.0",
+    "@babel/polyfill": "^7.11.5",
+    "@babel/preset-env": "^7.11.0",
+    "asyncawait": "^3.0.0",
+    "axios": "^0.20.0",
+    "webpack-server": "^0.1.2"
+  },
+  "scripts": {
+    "dev": "webpack-dev-server --mode=development"
+  },
+  "devDependencies": {
+    "@babel/plugin-transform-async-to-generator": "^7.10.4",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.1.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
